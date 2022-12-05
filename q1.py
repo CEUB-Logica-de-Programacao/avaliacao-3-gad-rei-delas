@@ -29,7 +29,7 @@ def q1(heights):
             maior = x
         elif x == maior:
             n+=1
-        return n
+    return n
 
 
 
