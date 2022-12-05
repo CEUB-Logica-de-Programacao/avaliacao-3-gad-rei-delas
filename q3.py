@@ -32,12 +32,12 @@
 
 def q3(arr, d):
     n = 0 
-    for b, y in enumerate(arr):
-        for b, x in enumerate(arr):
+    for a, x in enumerate(arr):
+        for b, y in enumerate(arr):
             if a == b:
                 continue 
             for c, z in enumerate(arr):
-                if a== c or b==c:
+                if a == c or b == c:
                     continue 
                 if a < b and b < c:
                     if y - x == d and z - y == d:
