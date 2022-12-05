@@ -32,6 +32,8 @@ def q4(s):
     for i in range(len(lista)):
         if lista[i].isupper():
             contador = contador + 1
+        if lista[i] == ' ':
+            contador = contador - 1 
     return contador
 
 
