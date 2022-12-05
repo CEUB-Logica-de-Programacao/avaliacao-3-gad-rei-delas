@@ -21,16 +21,7 @@
 #
 # Para obter a nota máxima dessa questão, deve-se utilizar apenas um ``for`` e nenhuma função pronta do Python.
 
-def q1(heights):
-    maior=0 
-    n=1
-    for x in heights
-    if x > maior:
-        maior=i
-        elif i==maior:
-            n+=1
-            return n
-        return 0
+
 
 
 if __name__ == '__main__':
