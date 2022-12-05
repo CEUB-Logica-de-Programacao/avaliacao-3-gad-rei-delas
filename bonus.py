@@ -26,7 +26,7 @@
 
 def bonus(n):
     if n == 0:
-        return ['']
+        return []
     elif n == 1:
         return ['()']
     else:
