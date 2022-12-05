@@ -28,6 +28,8 @@
 
 def q4(s):
     lista = list(s)
+    if len(lista) == 0:
+        return 0
     contador = 1
     for i in range(len(lista)):
         if lista[i].isupper():
