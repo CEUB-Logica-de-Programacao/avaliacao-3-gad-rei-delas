@@ -23,7 +23,7 @@
 import math
 def q2(start, end):
     lista = []
-    for i in range(start, end):
+    for i in range(start, end+1):
         if math.sqrt(i) == int(math.sqrt(i)):
             lista.append(i)
     return lista
